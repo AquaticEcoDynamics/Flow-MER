@@ -1,0 +1,13 @@
+clear all; close all;
+
+filename = 'Wellington Filled.xlsx';
+
+[snum,sstr] = xlsread(filename,'A2:B10000');
+
+well.Wellington.Flow.Date = datestr(sstr(:,1),'dd/mm/yyyy');
+well.Wellington.Flow.Data = snum(:,1) * 1000 / 86400;
+well.Wellington.Flow.Depth(1:length(snum(:,1)),1) = 0;
+well.Wellington.Flow.X = 352265.2;
+well.Wellington.Flow.Y = 6085784.0;
+
+save well.mat well -mat;
