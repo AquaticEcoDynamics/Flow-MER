@@ -1,0 +1,20 @@
+Variable,Site
+FLOW,A4261099
+SAL,SAW_Goolwa_US
+TEMP,SAW_Goolwa_US
+TRACE_1,No Site
+WQ_TRC_AGE,No Site
+WQ_NCS_SS1,SAW_Goolwa_US
+WQ_OXY_OXY,EPA2014_Lake_Alexandrina_Goolwa_Barrage_Upstream
+WQ_SIL_RSI,EPA2014_Lake_Alexandrina_Goolwa_Barrage_Upstream
+WQ_NIT_AMM,EPA_Goolwa
+WQ_NIT_NIT,EPA_Goolwa
+WQ_PHS_FRP,EPA_Goolwa
+WQ_PHS_FRP_ADS,EPA_Goolwa
+WQ_OGM_DOC,EPA2014_Lake_Alexandrina_Goolwa_Barrage_Upstream
+WQ_OGM_POC,EPA_Goolwa
+WQ_OGM_DON,EPA2014_Lake_Alexandrina_Goolwa_Barrage_Upstream
+WQ_OGM_PON,EPA2014_Lake_Alexandrina_Goolwa_Barrage_Upstream
+WQ_OGM_DOP,EPA_Goolwa
+WQ_OGM_POP,EPA_Goolwa
+WQ_PHY_GRN,SAW_Goolwa_US
