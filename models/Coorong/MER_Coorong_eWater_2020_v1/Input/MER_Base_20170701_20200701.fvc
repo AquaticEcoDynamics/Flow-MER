@@ -154,32 +154,32 @@ structure logging == 0  ! File opened will be the control file name with extensi
 
 
 
-bc == WL, 1, ../BC/Inflows/new_2020/BK_2020.csv
+bc == WL, 1, ../BC/Inflows/Basecase/BK_2020.csv
   bc header ==  ISOTime,wl,sal,temp,trace_1,trace_2,ss1,ret,oxy,rsi,amm,nit,frp,frp_ads,doc,poc,don,pon,dop,pop,grn,mag_ulva,mag_ulva_in,mag_ulva_ip
 end bc
 
-bc == Q, 2, ../BC/Inflows/new_2020/Goolwa_Extended_2020.csv
+bc == Q, 2, ../BC/Inflows/Basecase/Goolwa_Extended_2020.csv
   bc header ==  ISOTime,flow,sal,temp,trace_1,trace_2,ss1,ret,oxy,rsi,amm,nit,frp,frp_ads,doc,poc,don,pon,dop,pop,grn,mag_ulva,mag_ulva_in,mag_ulva_ip
 end bc
 
-bc == Q, 3, ../BC/Inflows/new_2020/Mundoo_Extended_2020.csv
+bc == Q, 3, ../BC/Inflows/Basecase/Mundoo_Extended_2020.csv
   bc header ==  ISOTime,flow,sal,temp,trace_1,trace_2,ss1,ret,oxy,rsi,amm,nit,frp,frp_ads,doc,poc,don,pon,dop,pop,grn,mag_ulva,mag_ulva_in,mag_ulva_ip
 end bc
 
-bc == Q, 4, ../BC/Inflows/new_2020/Boundary_Extended_2020.csv
+bc == Q, 4, ../BC/Inflows/Basecase/Boundary_Extended_2020.csv
   bc header ==  ISOTime,flow,sal,temp,trace_1,trace_2,ss1,ret,oxy,rsi,amm,nit,frp,frp_ads,doc,poc,don,pon,dop,pop,grn,mag_ulva,mag_ulva_in,mag_ulva_ip
 end bc
 
-bc == Q, 5, ../BC/Inflows/new_2020/Ewe_Extended_2020.csv
+bc == Q, 5, ../BC/Inflows/Basecase/Ewe_Extended_2020.csv
   bc header ==  ISOTime,flow,sal,temp,trace_1,trace_2,ss1,ret,oxy,rsi,amm,nit,frp,frp_ads,doc,poc,don,pon,dop,pop,grn,mag_ulva,mag_ulva_in,mag_ulva_ip
 end bc
 
-bc == Q, 6, ../BC/Inflows/new_2020/Tauwitchere_Extended_2020.csv
+bc == Q, 6, ../BC/Inflows/Basecase/Tauwitchere_Extended_2020.csv
   bc header ==  ISOTime,flow,sal,temp,trace_1,trace_2,ss1,ret,oxy,rsi,amm,nit,frp,frp_ads,doc,poc,don,pon,dop,pop,grn,mag_ulva,mag_ulva_in,mag_ulva_ip
 end bc
 
 
-bc == QC, 378767.6,6001315.3, ../BC/Inflows/new_2020/Salt_2020.csv
+bc == QC, 378767.6,6001315.3, ../BC/Inflows/Basecase/Salt_2020.csv
   bc header ==  ISOTime,flow,sal,temp,trace_1,trace_2,ss1,ret,oxy,rsi,amm,nit,frp,frp_ads,doc,poc,don,pon,dop,pop,grn,mag_ulva,mag_ulva_in,mag_ulva_ip
   bc scale == 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 end bc
